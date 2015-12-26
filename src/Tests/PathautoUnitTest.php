@@ -146,7 +146,7 @@ class PathautoUnitTest extends KernelTestBase {
           'title' => 'Page',
           'type' => 'page',
         ],
-        'expected' => '/[node:title]',
+        'expected' => '/content/[node:title]',
       ),
       array(
         'entity' => 'user',
